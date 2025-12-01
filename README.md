@@ -67,7 +67,7 @@ Cards automatically rearrange using grid-template-columns and fluid sizing, and 
 ## 💛 Author
 Connect with me:
 - **GitHub**: https://github.com/AaX003
-- **LinkedIn**: https://www.linkedin.com/in/ayana-hill-79991431a
+- **LinkedIn**: https://www.linkedin.com/in/aaxanah-hill-79991431a
 - **YouTube**: https://youtube.com/@axacodes
 
 ---
