@@ -1,16 +1,76 @@
-# React + Vite
+## Blog Preview Card - Multi-Theme Edition
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project was my personalized verision of the Frontend Mentor "Blog Preview Card" challenge. Instead of uploading a single card, I expanded the concept into three interactive cards--each with its own color theme, topic, and state using React. This challenge allowed me to practice UI design, component structure, theme switching, and responsive layouts. 
 
-Currently, two official plugins are available:
+## ✨ Demo Preview
+<div align="center">
+  <img src="https://s2.ezgif.com/tmp/ezgif-23730dccaa58691e.gif" alt="Blog Preview Card Demo" width="600" />
+</div>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🏆 The Challenge
+Users should be able to
+- View the project centered on the page
+- See a clean, responsive layout of a multi-card layout
+- Seamlessly switch through background colors based on active-card selection
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🎉 Features
+- Three custom cards, each one including:
+  - 🧩 A unique illustration
+  - 🧩 Banner label
+  - 🧩 Publication date
+  - 🧩 Short description
+  - 🧩 Author
+  - 🧩 Reflective theme color
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🫆 Interactive Card Selection
+- Clicking a card sets it to the active state, which:
+  - Changes the background
+  - Smoothly updates the visual theme with a transition
+  
+ ---
+ 
+## 📱 Fully Responsive Layout
+Cards automatically rearrange using grid-template-columns and fluid sizing, and stay centralized using display: flex.
+
+---
+
+## 🛠️ Tools
+- React (Vite)
+- CSS3 (custom theme styles + fonts + responsive layout)
+- Figma (designed my own vector-like style illustrations)
+- JavaScript (ES6+)
+
+---
+
+## 🧠 What I Learned
+- Mapping UI themes to data objects
+- State management using useState to control active-card selection
+- Customizing illustrations inspired by the challenge
+- Structuring reusable card components
+- Building responsive multi-card layouts
+- Adding enough box-shadow around elements for a 3D-aesthetic
+- Aligning visual identity based on topics
+
+---
+
+## 🔗 Links
+- **Frontend Mentor Challenge**: https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS
+- **Live Demo**: https://axacodes-blog-preview-frontendmentor.netlify.app/
+- **GitHub Repo**: https://github.com/AaX003/blog-preview-card-frontend
+
+---
+
+## 💛 Author
+Connect with me:
+- **GitHub**: https://github.com/AaX003
+- **LinkedIn**: https://www.linkedin.com/in/ayana-hill-79991431a
+- **YouTube**: https://youtube.com/@axacodes
+
+---
+## 💛 Acknowledgments
+Thanks to Frontend Mentor for the challenge--it was a lot of fun personalizing a single card layout into a multi-theme showcase 💛💚💙!
+  
