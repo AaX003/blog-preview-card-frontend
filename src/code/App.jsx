@@ -8,10 +8,10 @@ import bgImg from "../assets/images/illustration-article.svg";
 import firstUser from "../assets/images/image-avatar.webp";
 
 // card two
-import secondBgImg from "../assets/images/second-illustration-article.svg";
+import secondBgImg from "../assets/images/second-illustration-article.jpg";
 
 // card three
-import thirdBgImg from "../assets/images/third-illustration-article.svg";
+import thirdBgImg from "../assets/images/third-illustration-article.jpg";
 
 
 function BlogPreviewCard() {
@@ -64,7 +64,7 @@ function BlogPreviewCard() {
 
   return (
     <div className="bg-container" style={{ backgroundColor: bgColor }}>
-      <div className="container" >
+      <div className="container">
         
         <div className="blog-cards-display">
           {cards.map((c, idx) => (
@@ -106,9 +106,14 @@ function BlogPreviewCard() {
             </div>
           ))}
       </div>
-      </div>
-        
     </div>
+
+    <div className="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener">Frontend Mentor</a>. 
+      Coded by <a href="#">AXACODES</a>.
+  </div>
+
+</div>
   )
 }
 
